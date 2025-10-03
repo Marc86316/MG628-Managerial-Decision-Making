@@ -1,0 +1,16 @@
+,,,,,,,,,,
+Structured Data :  Patient Records,,,,,,,,Unstructured Data :  Medical Imaging ,,
+,,,,,,,,,,
+Patient ID,Age,Gender ,Diagnosis,Medicaiton ,Lab Result,Outcome,,Patient ID,Imaging Type,Description 
+P001,56,M,Diabetes ,Metformin,HbA1c=8.1,Stable,,P001,Chest X-ray ,"Mild cardiac enlargement, no pulmonary edema"
+P002,44,F,Hypertension,Lisinopril,BP=150/95,Ustable ,,P002,MRI Brain,"Small ischemic changes, possibly linked to hypertension "
+P003,68,M,Stroke,Aspirin,CT=Lesion,Recovered ,,P003,CT Brain,"Left hemisphere ischemic lesion, consistent with stroke"
+P004,39,F,Asthma,Salbutamol,Spirometry=60,Stable,,P004,Spirometry,"Reduced lung capacity, matches asthma symptoms"
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Identify the challenges of analyzing each type of data,,,,,,,,,,
+,,,,,,,,,,
+Data Type,Challenges of Analysis,,,,,,,,,
+Structured Data ,"Although it follows a fixed format and is easy to process, it may contain missing fields, duplicate records, or inconsistent data formats (e.g., ""HbA1c=8.1"" is difficult to compute)",,,,,,,,,
+Unstructured Data ,"Lacks a consistent format looks like an essay. Need someone to read through and interpret it carefully. Imaging data is often in text, so computers can’t easily read or analyze it. A lot of it still needs manual input ",,,,,,,,,
